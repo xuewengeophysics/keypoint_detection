@@ -4,6 +4,8 @@ models/
 *.pyc
 *.json
 .idea/
+FPD/.idea/
+HRNet/.idea/
 *.bogon
 logs/
 log/
