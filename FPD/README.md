@@ -1,6 +1,6 @@
 # Fast Human Pose Estimation CVPR2019
 
-This project is the study of [**FDP**](https://github.com/ilovepose/fast-human-pose-estimation.pytorch).
+This project is the study of [**FPD**](https://github.com/ilovepose/fast-human-pose-estimation.pytorch).
 
 
 
