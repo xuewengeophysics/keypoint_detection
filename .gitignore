@@ -1,0 +1,15 @@
+*.h5
+*ckpt*
+models/
+*.pyc
+*.json
+.idea/
+*.bogon
+logs/
+log/
+/codes/log.txt
+*log*
+*.pb
+local_test.py
+__pycache__/
+/utils/
