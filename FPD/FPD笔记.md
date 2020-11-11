@@ -25,11 +25,11 @@ def get_train_type(train_type, checkpoint):
 + **student配置文件中需要修改的地方**：
 
 ```yaml
-TRAIN:
-  CHECKPOINT: 'models/pytorch/pose_coco/pose_hrnet_w48_256x192.pth'
 KD:
   TRAIN_TYPE: 'KPD'
   TEACHER: 'models/pytorch/pose_coco/pose_hrnet_w48_256x192.pth'
+TRAIN:
+  CHECKPOINT: 'models/pytorch/pose_coco/pose_hrnet_w32_256x192.pth'
 ```
 
 + **cfg.TRAIN.CHECKPOINT需要修改的地方**：
