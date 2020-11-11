@@ -8,5 +8,19 @@
 
 
 
+## TODO
+
+1. 多层蒸馏：用Block更多的Teacher网络对Block更少的Student网络进行监督
+2. 随机初始化相互学习：
+
+
+
+
+
+## 参考资料
+
+1. [多层知识蒸馏：Patient knowledge distillation for bert model compression](https://arxiv.org/abs/1908.09355)
+2. [深度互学习Deep Mutual Learning](https://github.com/YingZhangDUT/Deep-Mutual-Learning)
+
 
 
