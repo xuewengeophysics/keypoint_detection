@@ -21,7 +21,8 @@ import torch.optim
 import torch.utils.data
 import torch.utils.data.distributed
 import torchvision.transforms as transforms
-from tensorboardX import SummaryWriter
+#from tensorboardX import SummaryWriter
+from torch.utils.tensorboard import SummaryWriter
 
 import _init_paths
 from config import cfg
@@ -103,8 +104,8 @@ def main():
     logger.info(pprint.pformat(args))
     logger.info(cfg)
 
-    t_checkpoints = cfg.KD.TEACHER
-    train_type = cfg.KD.TRAIN_TYPE
+    t_checkpoints = cfg.KD.TEACHER #注意是在student配置文件中修改
+    train_type = cfg.KD.TRAIN_TYPE #注意是在student配置文件中修改
     train_type = get_train_type(train_type, t_checkpoints)
     logger.info('=> train type is {} '.format(train_type))
 
