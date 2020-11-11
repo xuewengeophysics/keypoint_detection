@@ -19,7 +19,7 @@
 
 ## 参考资料
 
-1. [多层知识蒸馏：Patient knowledge distillation for bert model compression](https://arxiv.org/abs/1908.09355)
+1. [多层知识蒸馏：Patient knowledge distillation for bert model compression](https://github.com/intersun/PKD-for-BERT-Model-Compression)
 2. [深度互学习Deep Mutual Learning](https://github.com/YingZhangDUT/Deep-Mutual-Learning)
 
 
