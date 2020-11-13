@@ -21,6 +21,7 @@
 
 1. [多层知识蒸馏：Patient knowledge distillation for bert model compression](https://github.com/intersun/PKD-for-BERT-Model-Compression)
 2. [深度互学习Deep Mutual Learning](https://github.com/YingZhangDUT/Deep-Mutual-Learning)
+3. [BERT-EMD](https://github.com/lxk00/BERT-EMD)
 
 
 
