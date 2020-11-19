@@ -13,4 +13,4 @@ from __future__ import division
 from __future__ import print_function
 
 import models.pose_resnet
-import models.org_pose_hrnet
+import models.pose_hrnet
