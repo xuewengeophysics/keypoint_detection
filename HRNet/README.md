@@ -9,7 +9,7 @@ clone from https://github.com/leoxiaobin/deep-high-resolution-net.pytorch
 
 ## Demo
 
-```
+```shell
 python tools/human_keypoint_inference.py
 ```
 
@@ -58,3 +58,21 @@ python tools/human_keypoint_inference.py
 
    
 
+## ONNX Model Inference
+
+1. pth模型转onnx：
+
+   ```python
+   python tools/pytorch_model2onnx.py --cfg experiments/coco/hrnet/w32_256x192_adam_lr1e-3.yaml \
+   --pth models/pytorch/pose_coco/pose_hrnet_w32_256x192.pth
+   ```
+
+   
+
+2. 根据上一步得到的*.onnx模型进行推理：
+
+   ```
+   python tools/human_keypoint_inference_onnx.py
+   ```
+
+   
