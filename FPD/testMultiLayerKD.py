@@ -16,5 +16,6 @@ def resnet_cifar(net, input_data):
     return x
 
 model = models.resnet18()
+import ipdb;ipdb.set_trace()
 x = resnet_cifar(model,input_data)
 print(x.shape)

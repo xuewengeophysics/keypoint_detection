@@ -41,6 +41,7 @@ from utils.utils import save_yaml_file
 import dataset
 import models
 
+import ipdb
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Train keypoints network')
@@ -173,6 +174,7 @@ def main():
                     model_info='student_'+cfg.MODEL.NAME)
     model = torch.nn.DataParallel(model, device_ids=cfg.GPUS).cuda()
 
+
     # you can choose or replace pose_loss and kd_pose_loss type, including mse,kl,ohkm loss ect
     # define pose loss function (criterion) and optimizer
     pose_criterion = JointsMSELoss(
@@ -256,9 +258,6 @@ def main():
         # fpd method, default NORMAL
         if train_type == 'FPD':
             # train for one epoch
-            print("model = ", type(model))
-            print("tmodel = ", type(tmodel))
-            import ipdb;ipdb.set_trace()
             fpd_train(cfg, train_loader, model, tmodel,
                 pose_criterion, kd_pose_criterion, optimizer, epoch,
                 final_output_dir, tb_log_dir, writer_dict)
