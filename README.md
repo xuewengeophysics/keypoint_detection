@@ -1,9 +1,13 @@
 # keypoint_detection
 
-1. [SimpleBaseline](https://github.com/microsoft/human-pose-estimation.pytorch)
-2. [HRNet](https://github.com/xuewengeophysics/HRNet_keypoint_detection)
-3. [FPD](https://github.com/xuewengeophysics/FPD_keypoint_detection)
-4. [keypoint_rcnn_hrnet](https://github.com/xuewengeophysics/keypoint_rcnn_hrnet)
+1. [TokenPose](https://github.com/xuewengeophysics/TokenPose)
+2. [PRTR](https://github.com/xuewengeophysics/PRTR)
+3. [UDP-TransPose](https://github.com/xuewengeophysics/UDP-TransPose)
+4. [TransPose](https://github.com/xuewengeophysics/TransPose)
+5. [FPD](https://github.com/xuewengeophysics/FPD_keypoint_detection)
+6. [HRNet](https://github.com/xuewengeophysics/HRNet_keypoint_detection)
+7. [SimpleBaseline](https://github.com/microsoft/human-pose-estimation.pytorch)
+8. [keypoint_rcnn_hrnet](https://github.com/xuewengeophysics/keypoint_rcnn_hrnet)
 
 
 
