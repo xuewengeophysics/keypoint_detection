@@ -1,4 +1,4 @@
-# KeypointDetection笔记——UDP
+# UDP The Devil is in the Details Delving into Unbiased Data Processing for Human Pose Estimation笔记
 
 + Paper: [The Devil is in the Details: Delving into Unbiased Data Processing for Human Pose Estimation](https://arxiv.org/abs/1911.07524)
 
@@ -7,6 +7,11 @@
 + Blog: [魔鬼在细节中：人体姿态估计中无偏的数据处理方法(黄骏杰 知乎)](https://zhuanlan.zhihu.com/p/92525039)
 
 + Blog: [2020 COCO Keypoint Challenge 冠军之路(黄骏杰 知乎)](https://zhuanlan.zhihu.com/p/210199401)
+
+## 0. Summary Keywords
+
++ **无偏的坐标系统转换**（unbiased coordinate system transformation）；
++ **无偏的关键点格式转换，即关键点坐标编、解码**（unbiased keypoint format transformation, i.e., encoding and decoding）；
 
 ### 0. Idea
 
@@ -466,6 +471,4 @@ def get_max_preds(batch_heatmaps):
 
 ### 3. 参考资料
 
-
-
-​																															                                                                              问雪更新于2021-01-23
+问雪更新于2021-01-23
